@@ -1,7 +1,7 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import MyImage from './MyImage';
-import Location from './Location';
+
 
 
 
@@ -19,7 +19,7 @@ export default function MyTabs() {
       </TabPanel>
       <TabPanel>
         <h2>Our location</h2>
-        <Location />
+
       </TabPanel>
     </Tabs>
     )
